@@ -10,10 +10,10 @@ library(ggplot2)
 
 # Cargar la base de datos de excell
 ## Leer el archivo de excel 
-excel_sheets("C:\\Users\\Jheremy\\Downloads\\GDP_EE.UU_Serie_de_tiempo1 - copia.xlsx")
+excel_sheets("C:\\Users\\xxxxxx\\Downloads\\GDP_EE.UU_Serie_de_tiempo1 - copia.xlsx")
 
 # Leer datos
-df <- read_xlsx("C:\\Users\\Jheremy\\Downloads\\GDP_EE.UU_Serie_de_tiempo1 - copia.xlsx")
+df <- read_xlsx("C:\\Users\\xxxxxx\\Downloads\\GDP_EE.UU_Serie_de_tiempo1 - copia.xlsx")
 
 head(df)
 
