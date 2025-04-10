@@ -10,10 +10,10 @@ library(ggplot2)
 
 # Cargar la base de datos de excell
 ## Leer el archivo de excel 
-excel_sheets("C:\\Users\\Jheremy\\Downloads\\GDP_EE.UU_Serie_de_tiempo1 - copia.xlsx")
+excel_sheets("C:\\Users\\xxxxx\\Downloads\\GDP_EE.UU_Serie_de_tiempo1")
 
 # Leer datos
-df <- read_xlsx("C:\\Users\\Jheremy\\Downloads\\GDP_EE.UU_Serie_de_tiempo1 - copia.xlsx")
+df <- read_xlsx("C:\\Users\\xxxxx\\Downloads\\GDP_EE.UU_Serie_de_tiempo1.xlsx")
 head(df)
 
 # Convertir la columna observation_date a tipo Date
